@@ -1,0 +1,30 @@
+COMMAND
+
+ดูคำสั่้ง man
+ #ls -la ดูทั้งหมด
+    ls /path ดูไฟล์ที่ต้องการ
+ #pwd
+ #shutdown -h now ปิดเครื่อง
+ #reboot   รีเครื่อง
+
+#tail -f ดูlog
+
+vi --->เขียนไฟล์
+  -ESC + :wq ออกและเซฟ
+cp กอบไฟล์
+ -f ไม่ต้องถาม
+ -R เอาไดเรททอรี่ไปด้วย
+ -cp text1 text2 ที่เดียว
+ -cp text /home/text2 ไปคนละที่ 
+* คือ เอาชื่ออะไรก็ได้
+rm ลบไฟล์
+  -fr ลบโฟล์เดอ
+mv pathต้นทาง pathปลายทาง
+
+ดูเครื่อง
+-------------------------
+top --> taskmaneger
+df  ดูฮาร์ดดิส
+du ดูพื้นที่เก็บไฟล์
+netstat -tanp, ps :grep http ดูพอร์ท
+
