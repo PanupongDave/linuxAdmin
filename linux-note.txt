@@ -45,4 +45,34 @@ chmod เลข ชื่อไฟล์
 r = 2^2 =4
 w = 2^1 =2
 x = 2^0 =1 นำมารวมกัน
+------------------
+tar
+ -c create
+ -x -extract -get แตกไฟล์
+
+tar -xvf foo.tar  แตกไฟล์
+tar -xzf foo.tar.gz
+
+tar -zcvf foor.tar.gz แบ้กอัพ
+
+tar -jcvf foor.tar.bz2
+------------------------------------
+Vi command
+
+:w --->save
+:w --->exit
+:wq! --->save& exit no question
+:q! ออกโดยไม่มีการแก้ไข
+
+ssh
+vi /etc/ssh/sshd_config
+netstart -tanp|grep ssh
+แอดuser
+- useradd
+- passwd
+
+service sshd -restart
+
+
+
 
