@@ -73,6 +73,16 @@ netstart -tanp|grep ssh
 
 service sshd -restart
 
+--------------
+user 
+
+ตรวจสอบ user --> cat /etc/passwd หรือ cat /etc/shadow , cat /etc/group
+
+เพิ่ม user ---> adduser หรือ user add ตามด้วย username
+
+เชคว่าเราเป็นใคร --> who , whoami
+
+userdel -r user ลบuser + โฟลเดอร์ของuser 
 
 
 
